@@ -77,7 +77,7 @@ class ArtisanHomePage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
                       Text(description),
-                      Text("Price${price}")
+                      Text("Price$price")
                     ],
                   ),
                 ))

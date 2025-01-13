@@ -24,7 +24,7 @@ class _HomebottomnavState extends State<Homebottomnav> {
   }
 
 //Pages of the bottomNavBar items
-  List<Widget> _pages = [
+  final List<Widget> _pages = [
     HomePage(),
     ChartPage(),
     SettingsPage(),
