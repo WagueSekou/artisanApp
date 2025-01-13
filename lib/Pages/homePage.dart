@@ -192,36 +192,80 @@ class _HomePageState extends State<HomePage> {
                               description:
                                   "Best capenter you will ever work with",
                               price: 1000,
-                              image: "cap.jpeg"),
+                              image: "cap.jpeg",
+                              editArtisan: (context) {
+                                  // Default empty action
+                                  print("Edit Capenter");
+                                },
+                                deletArtisan: (context) {
+                                  // Default empty action
+                                  print("Delete Capenter");
+                                },
+                              ),
                           ArtisanHomePage(
                               name: "Pixel",
                               description:
                                   "Pixel is the most featureful phone ever",
                               price: 800,
-                              image: "download.jpeg"),
+                              image: "download.jpeg",
+                              editArtisan: (context) {
+                                      // Default empty action
+                                    },
+                                    deletArtisan: (context) {
+                                      // Default empty action
+                                    },
+                              ),
                           ArtisanHomePage(
                               name: "Laptop",
                               description:
                                   "Laptop is most productive development tool",
                               price: 2000,
-                              image: "download.jpeg"),
+                              image: "download.jpeg",
+                              editArtisan: (context) {
+                                        // Default empty action
+                                      },
+                                      deletArtisan: (context) {
+                                        // Default empty action
+                                      },
+                              ),
                           ArtisanHomePage(
                               name: "Tablet",
                               description:
                                   "Tablet is the most useful device ever for meeting",
                               price: 1500,
-                              image: "download.jpeg"),
+                              image: "download.jpeg",
+                              editArtisan: (context) {
+                                        // Default empty action
+                                      },
+                                      deletArtisan: (context) {
+                                        // Default empty action
+                                      },
+                              ),
                           ArtisanHomePage(
                               name: "Pendrive",
                               description: "Pendrive is useful storage medium",
                               price: 100,
-                              image: "download.jpeg"),
+                              image: "download.jpeg",
+                              editArtisan: (context) {
+                                        // Default empty action
+                                      },
+                                      deletArtisan: (context) {
+                                        // Default empty action
+                                      },
+                              ),
                           ArtisanHomePage(
                               name: "Floppy Drive",
                               description:
                                   "Floppy drive is useful rescue storage medium",
                               price: 20,
-                              image: "download.jpeg")
+                              image: "download.jpeg",
+                              editArtisan: (context) {
+                                       // Default empty action
+                                     },
+                                     deletArtisan: (context) {
+                                       // Default empty action
+                                     },
+                              )
                         ],
                       ),
                     ],
