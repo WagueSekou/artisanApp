@@ -10,7 +10,16 @@ class SettingsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.lightBlue[300],
-      appBar: AppBar(title: Text("Settings", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+      appBar: AppBar(
+        title: Text(
+          "Settings", 
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20, 
+            fontWeight: FontWeight.bold
+            ),
+          ),
+          centerTitle: true,
       backgroundColor: Colors.lightBlue[700],),
 
       body: Container(

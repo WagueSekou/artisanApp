@@ -5,6 +5,19 @@ class ChartPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.lightBlue[300],
+      appBar: AppBar(
+        title: Text(
+          "Messages", 
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20, 
+            fontWeight: FontWeight.bold
+            ),
+          ),
+          centerTitle: true,
+      backgroundColor: Colors.lightBlue[700],),
+    );
   }
 }
