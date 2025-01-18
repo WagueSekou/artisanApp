@@ -177,7 +177,7 @@ class _HomePageState extends State<HomePage> {
               Expanded(
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Theme.of(context).colorScheme.secondary,
                     borderRadius: BorderRadius.circular(9),
                   ),
                   padding: EdgeInsets.all(10),

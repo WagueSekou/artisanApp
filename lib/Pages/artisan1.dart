@@ -26,14 +26,16 @@ class ArtisanHomePage extends StatelessWidget {
         children: [
           //edit option
           SlidableAction(onPressed: editArtisan,
-          backgroundColor: Colors.grey.shade800,
+          backgroundColor: Colors.grey.shade400,
           icon: Icons.settings,
           borderRadius: BorderRadius.circular(8),),
 
           //deleting option
           SlidableAction(onPressed: deletArtisan,
-          backgroundColor: Colors.red.shade300,
+          backgroundColor: Colors.red.shade500,
+          foregroundColor: Colors.white,
           icon: Icons.delete,
+          // padding: EdgeInsets.all(4),
           borderRadius: BorderRadius.circular(8),),
         ],
       ),

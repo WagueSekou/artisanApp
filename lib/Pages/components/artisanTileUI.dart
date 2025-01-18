@@ -40,7 +40,7 @@ class ArtisanTileUI extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                    color: Colors.white),
+                    color: Theme.of(context).colorScheme.secondary,),
                 child: Image.asset(
                   "assets/appImag/$image",
                   fit: BoxFit.cover,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/Pages/chatPage.dart';
 import 'package:my_app/Pages/homePage.dart';
-import 'package:my_app/Pages/profilePage.dart';
+import 'package:my_app/Pages/profile/profilePage.dart';
 import 'package:my_app/Pages/settingPage.dart';
 
 
@@ -28,7 +28,7 @@ class _HomebottomnavState extends State<Homebottomnav> {
     HomePage(),
     ChartPage(),
     SettingsPage(),
-    profilePage()
+    ProfileScreen()
   ];
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/Pages/login.dart';
 import 'package:my_app/Pages/theme/themeProvider.dart';
 import 'package:my_app/reusable/bottomNavBar.dart';
 import 'package:provider/provider.dart';
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
      debugShowCheckedModeBanner: false,
-      home: isLoggedIn ? const Homebottomnav() : const LoginForm(),
+      home: const Homebottomnav(),
       theme: Provider.of<Themeprovider>(context).themeData,
       // darkTheme: darkMode,
 
